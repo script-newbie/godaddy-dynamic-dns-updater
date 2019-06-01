@@ -3,7 +3,7 @@
 A very simple dns updater for godaddy to help people who want to host their web servers locally but doesn't have the luxury of a static ip.
 
 
-## Pre requesites
+## Prerequisites
 - jq is a lightweight and flexible command-line JSON processor. https://stedolan.github.io/jq/
 - GoDaddy API Key for production https://developer.godaddy.com/keys
 
