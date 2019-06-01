@@ -1,3 +1,23 @@
 # godaddy-dynamic-dns-updater
 
-A dns updater for godaddy to help people who want to host their web servers locally but doesn't have the luxury of a static ip.
+A very simple dns updater for godaddy to help people who want to host their web servers locally but doesn't have the luxury of a static ip.
+
+
+## Pre requesites
+- jq is a lightweight and flexible command-line JSON processor. https://stedolan.github.io/jq/
+- GoDaddy API Key for production https://developer.godaddy.com/keys
+
+## How to use
+1. Clone this repo. `git clone https://github.com/script-newbie/godaddy-dynamic-dns-updater.git`.
+2. cd inside the cloned repo.
+3. make both shell scripts executable using this command `chmod -R +x *.sh`.   
+4. Modify the `AUTH` and `DOMAIN` variables inside 'dns-updater.sh'.
+5. Finally, add it as a cron job that would run every minute. `./install-cron-job.sh`.
+6. Enjoy!
+
+
+
+## Tested on 
+1. Ubuntu 18.04 LTS
+2. Ubuntu 16.04 LTS
+3. Debian Stretch Lite
