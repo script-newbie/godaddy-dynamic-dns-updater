@@ -2,7 +2,7 @@
 
 # Query current public ip address
 CURRENT_IP=$(curl -s https://ipinfo.io/ip)
-AUTH="Authorization: sso-key <API_KEY>"
+AUTH="Authorization: sso-key <API_KEY>:<API_SECRET>"
 DOMAIN="<DOMAIN>"
 NOW=`date`
 # query current DNS A Record of the domain
